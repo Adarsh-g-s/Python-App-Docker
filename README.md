@@ -30,6 +30,21 @@ Push to dockerhub
 
 <img width="721" alt="Docker push" src="https://user-images.githubusercontent.com/26891940/141652988-35692aa6-f623-4570-9eed-5387fff23f38.png">
 
-Verify if the push on dockerhub.
+Verify if the pushed image is available on dockerhub repository.
 
 <img width="1275" alt="PushedDockerRepo" src="https://user-images.githubusercontent.com/26891940/141653009-5c8fc7eb-75e0-432b-bb2a-956b39f8e0dd.png">
+
+### Create a dev environment
+
+Create a dev environment of the current repo on docker desktop.
+
+<img width="762" alt="Screenshot 2021-11-14 at 09 00 51" src="https://user-images.githubusercontent.com/26891940/142259615-aa01b361-c802-4991-b935-2b0cfc02cc72.png">
+
+
+After a successful creation the environment can be seen as running on the desktop
+
+<img width="1015" alt="Screenshot 2021-11-14 at 09 08 46" src="https://user-images.githubusercontent.com/26891940/142260053-f07ecf0b-4d57-49d6-9ec8-07a796a82c98.png">
+
+Open the running environment in the CLI or terminal, one can see all the images present, on running the retardinc/testpython image the corresponding messages are printed.
+
+<img width="1286" alt="Screenshot 2021-11-14 at 09 12 04" src="https://user-images.githubusercontent.com/26891940/142260564-8dde2a2e-5cb8-48b4-9480-137f4d53d246.png">
